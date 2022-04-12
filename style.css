@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import "./fontawesome/scss/fontawesome.scss";
+@import "./fontawesome/scss/solid.scss";
+@import "./fontawesome/scss/brands.scss";
+
 
 html, body{
+  
   height: 100%;
   width: 100%;
   font-family: 'Poppins', sans-serif;
@@ -141,7 +146,7 @@ hr.light-100 {
 @media (max-width: 1500px){
   .carousel-inner img{
     width: 100%;
-    height: 550px;
+    height: 400px;
   }
 }
 
